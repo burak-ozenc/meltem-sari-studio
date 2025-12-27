@@ -12,7 +12,6 @@ dist/
 
 # Sanity
 .sanity/
-sanity.config.js
 
 # Logs
 *.log
