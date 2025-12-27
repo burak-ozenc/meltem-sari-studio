@@ -7,8 +7,8 @@ export default defineConfig({
   name: 'default',
   title: 'Meltem Sari Portfolio',
 
-  projectId: process.env.VITE_SANITY_PROJECT_ID,
-  dataset: process.env.VITE_SANITY_DATASET,
+  projectId: process.env.VITE_SANITY_PROJECT_ID || 'jl0heffc',
+  dataset: process.env.VITE_SANITY_DATASET || 'production',
 
   plugins: [deskTool(), visionTool()],
 
